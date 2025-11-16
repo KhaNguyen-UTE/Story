@@ -21,7 +21,7 @@
    <audio src="https://khanguyen-ute.github.io/hello/hello.mp3" id="linkmp3" class="sembunyi"></audio>
    <!--Thay nền (nếu muốn) -->
    <div id="bodyblur">
-     <!-- Wallpaper --><img src="https://khanguyen-ute.github.io/hello/nen.jpg" id="wallpaper"/><div id="beneranblur"></div>
+     <!-- Wallpaper --><img src="https://khanguyen-ute.github.io/hello/2.jpg" id="wallpaper"/><div id="beneranblur"></div>
    </div>
    
    <div id='Content'>
@@ -87,12 +87,12 @@
     var { value: nama } = await swals.fire({
            title: 'Em nghe vui hay buồn ạ 😫 (Buồn - Vui)', input: 'text',
        });
-       if(nama == "Buồn"){
+       if((nama == "Buồn") || (nama == "Tâm sự")){
          window.nama = nama;
          vketikhalo = "Hé lô pé 💑\nEm bình tĩnh khi nghe nha. \nĐáng lẽ, anh phải gửi lâu rùi. \nNhưng mà hôm h anh bận quá, nay a mới edit xong😓";
          mulainama();
          } else {
-           await swals.fire('Vui hoặc Buồn hoi nha 😝');inipesan();
+           await swals.fire('Anh muốn tâm sự tí, chọn -Tâm sự- ha');inipesan();
     }
   }
 

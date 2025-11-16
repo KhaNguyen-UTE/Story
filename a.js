@@ -58,7 +58,7 @@ function initengahan(){
   strings: ["" + vketik2, "" + vketik3], startDelay: 20, speed: 30, cursor: true, deleteSpeed: 30, breakLines: false, waitUntilVisible: true, lifelike: true,
   afterComplete: function(){
     kalimat.innerHTML=vketik3;
-    var nhacMoi = new Audio("https://khanguyen-ute.github.io/hello/Chimuonnamtaynguoi.mp3");
+    var nhacMoi = new Audio("https://khanguyen-ute.github.io/hello/Story.mp3");
     nhacMoi.play();
     wallpaper.style.opacity = 0; // làm mờ
     setTimeout(() => {
@@ -88,7 +88,7 @@ function initengahan(){
     pesan5.innerHTML=vketik5;
     wallpaper.style.opacity = 0; // làm mờ
     setTimeout(() => {
-    wallpaper.src = "https://khanguyen-ute.github.io/hello/5.jpg"; // đổi nền
+    wallpaper.src = "https://khanguyen-ute.github.io/hello/6.jpg"; // đổi nền
     wallpaper.style.opacity = 1; // hiện lại
   }, 500); // thời gian delay khi đổi ảnh
    setTimeout(aktipesan6,700);
